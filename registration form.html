@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+        <style>
+            h2{
+                text-align: center;
+                font-style: italic;
+            }
+            /*.form{
+                /*border-radius: 0px;
+                background: gray;
+                color:black;
+                font-weight: bold;
+                width: 400px;
+                display: inline-block;
+                align-items: center;
+                margin-bottom: 10px;
+                width:100%;
+            }*/
+            .form{
+                background-color: gray;
+                padding-left: 35px;
+                padding-top: 5px;
+                padding-right:0px;
+                padding-bottom: 15px;
+                    
+                margin-top: 0%;
+                margin-left:35% ;
+                margin-right: 25%;
+                margin-bottom: 20%;
+                width: 25%;
+                
+            }            
+            label{
+                display:inline-block;
+                font-weight: bold;
+                width:130px;
+                               
+            }
+            .button-container{
+                display: flex;
+                margin-left: 75px;
+                
+            }
+            button{
+                margin: 0 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form">
+            <h2>Registration Form</h2>  
+                <form>
+                    <label>Name</label> 
+                        <input type="text" name="name"><br><br>
+                    <label>Father's Name</label>
+                        <input type="text" name="fathername"><br><br>
+                    <label>Email Id</label>
+                        <input type="text" name="email"><br><br>
+                    <label>DOB</label>
+                        <input type="date" name="date"><br><br>
+                    <label>Gender</label> 
+                        Male<input type="radio" id="g" name="gender" value="m">
+                        Female<input type="radio" id="g" name="gender" value="m"><br><br>
+                    <label for="area">Area of Interest</label>
+                        
+                    <select id="areas">
+                        <option value="Java">Java</option>
+                        <option value="C++">C++</option>
+                        <option value="C">C</option>
+                        <option value="Python">Python</option>
+                    </select><br><br>
+                    <label>Hobbies</label> 
+                            Music<input type="checkbox" id="hob" name="hobbies" value="Music">
+                            Dance<input type="checkbox" id="hob" name="hobbies" value="Dance">
+                            Book<input type="checkbox" id="hob" name="hobbies" value="Book">
+                    <br><br>
+                    <div class="button-container">
+                        <button type="submit">Login</button>
+                        <button type="submit">Cancel</button>
+                        
+
+                    </div>                                        
+                </form>
+        </div>
+    </body>
+</html>
